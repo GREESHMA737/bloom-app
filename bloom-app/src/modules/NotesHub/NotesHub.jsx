@@ -117,7 +117,7 @@ export default function NotesHub() {
             <button 
               type="submit"
               disabled={!title.trim() && !content.trim()}
-              className="w-full sm:w-auto py-2.5 px-6 rounded-2xl bg-theme-primary text-white font-bold text-xs hover:opacity-95 shadow-glow disabled:opacity-50 disabled:cursor-not-allowed transition-all flex items-center justify-center gap-1.5"
+              className="w-full sm:w-auto py-2.5 px-6 rounded-2xl bg-blue-500 hover:bg-blue-600 text-white font-bold text-xs shadow-glow disabled:opacity-50 disabled:cursor-not-allowed transition-all flex items-center justify-center gap-1.5"
             >
               <Plus size={14} />
               <span>Save Note</span>
